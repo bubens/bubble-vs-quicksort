@@ -1,0 +1,72 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+	<title>Bubble Sort vs. Quicksort</title>
+	<meta charset="utf-8">
+	<style>
+		* {
+    	padding: 0;
+    	margin: 0;
+    }
+
+    body {
+    	background: #F0EAD6;
+		font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+    	text-align: center;
+    	padding-top: 30px;
+    	border-bottom: 1px solid #000000;
+    }
+
+
+    #setup {
+    	width: auto;
+    	margin: auto;
+    	text-align: center;
+    }
+
+    table {
+    	margin: 20px auto;
+    	font-size: 20pt;
+    }
+
+    td {
+    	vertical-align: top;
+    	padding: 5px;
+    }
+
+    footer {
+    	position: absolute;
+    	bottom: 10px;
+    	width: 100%;
+    	margin: auto;
+    	padding: 10px 50%;
+    }
+	</style>
+</head>
+<body>
+	<h1>Bubble- vs. Quicksort</h1>
+	<div class="container" id="setup">
+		<p>Bubblesort (l) and Quicksort (r) compete in sorting this mess:</p>
+		<div id="example"></div>
+		
+	</div>
+	<table>
+		<tr>
+			<th>Bubblesort</th>
+			<th>Quicksort</th>
+		</tr>
+		<tr>
+			<td id="bubble"></td>
+			<td id="quick"></td>
+		</tr>
+	</table>
+	<footer>
+		Source-Code on <a href="https://github.com/bubens/bubble-vs-quicksort">Github</a>
+	</footer>
+	<script src="rel/sorting.js"></script>
+</body>
+</html>
