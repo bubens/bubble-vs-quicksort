@@ -50,9 +50,9 @@
 <body>
 	<h1>Bubble- vs. Quicksort</h1>
 	<div class="container" id="setup">
-		<p>Bubblesort (l) and Quicksort (r) compete in sorting this mess:</p>
+		<p><a href="https://en.wikipedia.org/wiki/Bubble_sort" title="Bubble-Sort on Wikipedia">Bubble-Sort</a> and <a href="https://en.wikipedia.org/wiki/Quicksort" title="Quicksort on Wikipedia">Quicksort</a> compete in sorting this mess:</p>
 		<div id="example"></div>
-		
+		<p>Reload or click <a id="reload" href="javascript:void(0);">here</a> to see another one</p>
 	</div>
 	<table>
 		<tr>
@@ -68,5 +68,13 @@
 		Source-Code on <a href="https://github.com/bubens/bubble-vs-quicksort">Github</a>
 	</footer>
 	<script src="rel/sorting.js"></script>
+	<script>
+	document.querySelector("#reload")
+		.addEventListener(
+			"click"
+			, () => location.reload()
+		);
+	</script>
+		
 </body>
 </html>
